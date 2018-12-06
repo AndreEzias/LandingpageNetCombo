@@ -1,0 +1,151 @@
+/*****************
+      GLOBAL
+******************/
+
+.horizontal-bar{
+    border: solid 2px;
+}
+.horizontal-bar.w-75{
+    width: 75%;
+}
+.horizontal-bar.yellow{
+    border-color: #ffe200;
+}
+.horizontal-bar.blue{
+    border-color: #0060b6;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.text{
+    text-transform: uppercase;
+}
+.text-yeallow{
+    color: #ffe200;
+}
+.text-blue{
+    color: #0060b6;
+}
+.text-gray{
+    color: #979797;
+}
+
+/*******************
+       BANNER
+ ******************/
+
+#banner{
+    background-image: URL(../img/bg_banner.png);
+    background-size: cover;
+}
+
+#banner .title-mega{
+    font-size: 165px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#banner .title-price{
+    font-size: 250px;
+    font-weight: 700;
+    line-height: 220px;
+}
+#banner .title-sub{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 55px;
+}
+#banner .cta{
+    background-color: #ffe200;
+    color: #0060b6;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*****************
+        CALL
+******************/
+#call{
+    background-image: url(../img/bg_phone.png);
+    background-size: cover;
+    background-position-x: right;
+}
+
+/****************
+    INTERNET
+ ****************/
+#internet{
+    background-image: url(../img/bg_internet.png);
+    background-size: cover;
+    background-position-x: right;
+}
+
+/****************
+       TV
+ ****************/
+#tv{
+    background-image: url(../img/bg_tv.png);
+    background-size: cover;
+}
+
+@media (max-width: 992px) {
+    #banner .title-mega{
+        font-size: 135px;
+    }
+    #banner .title-price{
+        font-size: 150px;
+        line-height: 120px;
+    }
+    #banner .title-sub{
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 768px){
+    #banner .title-mega{
+        font-size: 90px;
+    }
+    #banner .title-price{
+        font-size: 110px;
+        line-height: inherit;
+    }
+    #banner .title-sub{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 576px){
+    #banner .title-mega{
+        font-size: 70px;
+        text-align: center;
+    }
+    #banner .title-price{
+        font-size: 135px;
+        line-height: 100px;
+    }
+    #banner .title-sub{
+        font-size: 18px;
+        line-height: 16px;
+    }
+    #banner {
+        background-position: 35%;
+    }
+
+    #call {
+        background-position: 2%;
+    }
+    #tv {
+        background-position: 44%;
+    }
+}
+
+.modal-footer{
+    border-top:none;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+.poweredContainer__1vpCw{ display:none;}
